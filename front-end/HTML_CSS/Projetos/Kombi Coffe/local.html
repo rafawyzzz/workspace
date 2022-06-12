@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Local</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desciption" content="Site de cafeteria móvel, com cardápio, eventos e contato da Kombi Coffe.">
+    <meta name="keywords" content="Café, Kombi, Cafeteria">
+    <meta name="author" content="Rafael Silva">
+    <link rel="shortcut icon" href="./Imagens/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./Imagens/favicon-32x32.png" type="image/x-icon">
+    <script src="modernizr-custom.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="http://flashcanvas.net/bin/flashcanvas.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-titulo">
+                <a href="#"><img class="logoimg" src="./Imagens/logo_kombi_coffee40x40.png"
+                        alt="Logo site Kombi Coffe"></a>
+                <span class="title-logo">KOMBI</span><span class="title-logo2">Kombi Coffe</span>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="hover-underline-animation" href="Index.html">Home</a></li>
+                    <li><a class="hover-underline-animation" href="local.html">Local</a></li>
+                    <li><a class="hover-underline-animation" href="cardapio.html">Cardápio</a></li>
+                    <li><a class="hover-underline-animation" href="eventos.html">Eventos</a></li>
+                    <li><a class="hover-underline-animation" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main-container">
+        <div id="div-map">
+            <iframe class="map article-map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2746501444963!2d-43.18113374942194!3d-22.903238443428922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5e7db1b2d3%3A0x4f7d475eaa18788f!2sR.%20do%20Ros%C3%A1rio%2C%20128%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020041-002!5e0!3m2!1spt-BR!2sbr!4v1655043449471!5m2!1spt-BR!2sbr"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <section class="container-footer">
+            <div class="footer-eventos">
+                <h5>Eventos</h5>
+                <ul>
+                    <li><a href="eventos.html">- O Lorem Festival</a></li>
+                    <li><a href="eventos.html">- São Paulo Lorem</a></li>
+                    <li><a href="eventos.html">- Expo ipsum</a></li>
+                    <li><a href="eventos.html">- Lorem ipsum</a></li>
+                </ul>
+            </div>
+            <div class="footer-local">
+                <h5>Localizações</h5>
+                <ul>
+                    <li><a href="local.html">- Rio de Janeiro: Lorem ipsum</a></li>
+                    <li><a href="local.html">- São Paulo: Lorem ipsum</a></li>
+                    <li><a href="local.html">- Anápolis: Lorem ipsum</a></li>
+                </ul>
+            </div>
+            <div class="footer-contato">
+                <h5>Contatos</h5>
+                <ul>
+                    <li>
+                        <p>Endereço: Lorem ipsum</p>
+                    </li>
+                    <li>
+                        <p>Telefone: Lorem ipsum</p>
+                    </li>
+                    <li>
+                        <p>Email: Lorem@ipsum.com</p>
+                    </li>
+                    <li><a href="contato.html">Clique aqui para entrar em contato</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="copyright">
+            <p>Copyright &copy; Rafael Silva 2022</p>
+        </section>
+    </footer>
+
+</html>
