@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment</title>
+    <script src="modernizr-custom.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/43c5964a6b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo-container">
+                <a class="logo" title="Link para o Home" href="#">
+                    <img alt="Logo do Site" src="./Imagens/logo.png">
+
+                </a>
+                <p>dados abertos</p>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+            </div>
+
+            <div class="navbar-links">
+                <ul>
+                    <li><a title="Link para o Home" href="index.html">INÍCIO</a></li>
+                    <li><a title="Link para as Notícias" href="#experiencia">MINHA EXPERIÊNCIA</a></li>
+                    <li><a title="Link para a Plenária" href="#responsivo">DESIGN RESPONSIVO</a></li>
+                    <li><a title="Link para o Contato" href="#multimidia">MULTIMÍDIA WEB</a></li>
+                    <li><a title="Link para o Assessment" href="#">ASSESSMENT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="assessment">
+            <section id="experiencia">
+                <article>
+                    <h1>Minha esperiência</h1>
+                    <p>No geral achei a discisplina de HTML e CSS muito tranquila. Durante o percurso de aprendizagem
+                        não me deparei com dificuldades e a professora conseguiu desenvolver bem todo o conteudo com uma
+                        curva de aprendizagem muito suave.</p>
+                    <p>Porém senti falta de trabalharmos mais em cima de reponsividade, visto que o mercado hoje tem
+                        como foco o mobile first, uma abordagem mais prática e construções em tempo real de sites
+                        respnsivos com nav bar e a interação de diversos outros componentes com a responsividade ficou
+                        em falta.</p>
+                    <p>É percebitível que o conteúdo de CSS não se aprofundou, muito provável por causa do tempo, porém
+                        isto deixou muito a desejar. Conceitos como os de animação entre outros, muitos importantes,
+                        foram deixados de fora do conteúdo programático. Acho que valeria dividir a materia entre HTML
+                        com Interação Humano Computador e deixar 3 meses somente com CSS para termos maior profundidade
+                        de conteudo.</p>
+                    <p>Em resumo, o conteudo foi bem aplicado mas poderia ter sido melhor em questão de pratica real de
+                        elaboração de sites e senti uma necessidade por mais tempo para aprofudamento do conteudo de
+                        CSS.</p>
+                </article>
+            </section>
+            <section id="responsivo" class="questoes">
+                <h1>Design Responsivo</h1>
+                <article>
+                    <h2>Questão 1</h2>
+                    <p>Quando é recomendando a criação de um site separado para mobile?
+                        Seria este o caso deste site da Câmara de Deputados?</p>
+                    <h3>resposta:</h3>
+                    <p>È recomendado a criação de sites serpado para mobile
+                        quando se tem grande quantidade de informações e complexidades em sites, se tornando
+                        inviável a responsividade uma vez que se faz necessário a facilitação da navegação para o site
+                        se tornar usuál.</p>
+                    <p>Este não seria o caso do site da Câmara pois o site é de simples navegação não tendo interações
+                        complexas com o usuário e apenas dispondo informação.</p>
+                </article>
+                <article>
+                    <h2>Questão 2</h2>
+                    <p>No caso de um CSS específico para impressão (print), como ele deve
+                        ser inserido?</p>
+                    <h3>resposta:</h3>
+                    <p>Ele deve ser inserio através de um arquivo .css com estilos específicos para impressão e chamadno
+                        no head ou se utilizando de media type direto no css usual.</p>
+                </article>
+            </section>
+            <section id="multimidia" class="questoes">
+                <h1>Multimídia Web</h1>
+                <article>
+                    <h2>Questão 1</h2>
+                    <p>O elemento audio permite como elemento - filho o elemento source.
+                        Quais são os atributos que o source permite e qual conteúdo eles
+                        suportam? Quais os outros atributos do elemento audio e quando
+                        devem ser utilizados?</p>
+                    <h3>resposta:</h3>
+                    <p>O source permite os atributos de midia, src e type.</p>
+                    <p>Os atributos do elemento audio são autoplay, controls, loop, muted, preload, src. Ele deve ser
+                        utilizado quando se deseja inserir player de audio em sua pagina .html</p>
+                </article>
+                <article>
+                    <h2>Questão 2</h2>
+                    <p>O elemento video permite como elemento - filho o elemento source.
+                        Quais são os atributos que o source permite e qual conteúdo eles
+                        suportam? Quais os outros atributos do elemento video e quando
+                        devem ser utilizados?</p>
+                    <h3>resposta:</h3>
+                    <p>O source permite os atributos de midia, src e type.</p>
+                    <p>Sobre os outros elemento do video são e servem para definir:</p>
+                    <ul>
+                        <li>
+                            <p>autoplay: Para dar play automático no video.</p>
+                        </li>
+                        <li>
+                            <p>autobuffer: Faz o video carregar automático mesmo que não especificado para tocar
+                                automaticamente.</p>
+                        </li>
+                        <li>
+                            <p>buffered: Serve para determinar os intervalos do vídeo que já foram carregados.</p>
+                        </li>
+                        <li>
+                            <p>controls: Gecko oferecerá controles para permitir o usuário controlar a reprodução do
+                                vídeo, incluindo volume, navegação, e pausa/continuação da reprodução.</p>
+                        </li>
+                        <li>
+                            <p>height: Para altura da área de exibição do vídeo</p>
+                        </li>
+                        <li>
+                            <p>loop: Se especificado, ao chegar no fim do vídeo, ele voltará automaticamente para o
+                                começo</p>
+                        </li>
+                        <li>
+                            <p>muted: Indica a configuração padrão do áudio contido no vídeo. Se definido, o áudio vai
+                                começar mudo. </p>
+                        </li>
+                        <li>
+                            <p>played: TimeRanges indicando que todo o vídeo foi reproduzido.</p>
+                        </li>
+                        <li>
+                            <p>preload: Esse atributo enumerado pretende dar uma sugestão ao navegador sobre o que o
+                                autor pensa que proporcionará uma melhor experiência do usuário.</p>
+                        </li>
+                        <li>
+                            <p>poster: Uma URL indicando uma imagem de prévia do vídeo até o usuário reproduzir ou
+                                navegar por ele.</p>
+                        </li>
+                        <li>
+                            <p>src: A URL do vídeo a ser incorporado.</p>
+                        </li>
+                        <li>
+                            <p>width: A largura da área de exibição do vídeo</p>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h2>Questão 3</h2>
+                    <p>No caso do canvas, HTML 5 nunca, em momento algum, fez qualquer
+                        animação. Isso porquê o HTML 5 é uma simples linguagem de
+                        marcação. Dessa forma, o que é necessário para criar animações com
+                        HTML5? O que são APIs do HTML5?</p>
+                    <h3>resposta:</h3>
+                    <p>Para criar animações com css são necessárias a utilizações de API/frameworks que são ferramentas
+                        ou programas de interface de aplicações que perimitem a comunicações do HTML com outras
+                        tecnologias.</p>
+                </article>
+                <article>
+                    <h2>Questão 4</h2>
+                    <p>Como o CSS3 pode ser aplicado na aparência da multimídia HTML5.
+                        Demonstre com um exemplo.</p>
+                    <h3>resposta:</h3>
+                    <p>Ele pode ser utilizado como por exemplo redimensionar o tamanho de um vídeo dentro de uma pagina
+                        HTML.</p>
+                    <p> Exemplo:
+                        iframe{
+                        max-widht 50%
+                        max-height: 50%
+                        }
+                    </p>
+                    <p>
+                        No trecho acima usamos o seletor por tag para definirmo o tamnho maximo que uma tag de iframe
+                        usada para reproduzir videos de youtobe, por exemplo, dentro do HTML.
+                    </p>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section title="copyright" class="copyright">
+            <p>© Instituto Infnet - Assessment Interfaces com HTML e CSS</p>
+        </section>
+    </footer>
+</body>
+
+</html>
