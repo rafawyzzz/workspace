@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Roboto-flex;
+    src: url(../RobotoFlex/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+}
+    *{
+    box-sizing: border-box;
+    font-family: "Roboto-flex", sans-serif;
+}
+body {
+    padding: 20px;
+    max-width: 100%;
+    display: block;
+}
+button{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(2, 211, 211);
+}
+input{
+    width: 100%;
+    font-size: 1rem
+}
+.allForm  input{
+    font-size: 1.3rem;
+    width: 100%;
+}
+.allForm button{
+    width: 100%;
+}
+div{
+    margin-bottom: 10px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+fieldset{
+    width: 75%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}
+.allForm{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+.divForm{
+    margin-bottom: 1rem;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+#iEmail, #iSenha{
+    text-align: center;
+}
+#resultado_q1{
+    max-width: 400px;
+    white-space: wrap;
+    overflow: scroll;
+    text-overflow: clip;
+ 
+}
+article{
+    width: 100%;
+}
+#q1,
+#q2,
+#q3,
+#q4,
+#q5,
+#q6 {
+    margin-bottom: 20px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
