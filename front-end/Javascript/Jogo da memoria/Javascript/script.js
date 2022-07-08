@@ -110,7 +110,7 @@ let app = {
    },
    exibirTempCards: () => {
       const tabuleiro = document.getElementById('tabuleiro');
-      divCards = tabuleiro.children;
+      let divCards = tabuleiro.children;
       for (const iterator of divCards) {
          iterator.classList.add('ativo');
       }
